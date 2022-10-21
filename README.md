@@ -14,7 +14,7 @@ Langkah Kerja :
 
 7. Gulir ke atas dan pilih warna Isi sesuai keinginan Anda. Teknik kartografi yang berguna adalah memilih versi warna isian yang sedikit lebih gelap sebagai warna Stroke. Daripada mencoba memilihnya secara manual, QGIS menyediakan ekspresi untuk mengontrol ini dengan lebih tepat. Klik tombol Penimpaan yang ditentukan data dan pilih Edit.
 
-8.Masukkan ekspresi berikut untuk mengatur warna menjadi bayangan 30% lebih gelap dari warna isian dan klik OK. 
+8. Masukkan ekspresi berikut untuk mengatur warna menjadi bayangan 30% lebih gelap dari warna isian dan klik OK. 
 darker(@symbol_color, 130)
 
 9. Anda akan melihat bahwa tombol Override yang ditentukan Data di sebelah Warna Stroke telah berubah menjadi kuning - menunjukkan bahwa properti ini dikendalikan oleh override. Render simbol tunggal dari lapisan pembangkit listrik tidak terlalu berguna. Itu tidak menyampaikan banyak informasi kecuali lokasi pembangkit listrik. Mari kita gunakan penyaji yang berbeda untuk membuatnya lebih berguna. Klik drop-down Symbology dan pilih Categorized renderer.
